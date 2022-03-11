@@ -1,4 +1,5 @@
-julien@ubuntu:~/c/0x00$ cat main.c 
+#!/bin/bash
+#julien@ubuntu:~/c/0x00$ cat main.c 
 #include <stdio.h>
 
 /**
