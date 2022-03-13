@@ -2,24 +2,24 @@
 
 /**
  * main - Entry
- * Description: prints the lowercase alphabet in reverse
- *Return: 0
+ * Description: prints all the numbers of base 16 in lowercase
+ * Return: 0
  */
 
 int main(void)
 {
-	char d, c;
-        d = '0';	
-	while (d <= '9')
+	char ch;
+	char i = '0';
+
+	while (i <= '9')
 	{
-		putchar(d);
-		d++;
+		putchar(i);
+		i++;
 	}
-	c = 'a';
-	while (c <= 'f')
+
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
