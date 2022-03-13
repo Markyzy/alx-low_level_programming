@@ -8,9 +8,8 @@
 
 int main(void)
 {
-	char f;
+	char f, s;
         f = '0';
-	char s;
 
 	while (f <= '9')
 	{
