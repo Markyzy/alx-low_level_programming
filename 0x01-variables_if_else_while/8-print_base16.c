@@ -17,7 +17,7 @@ int main(void)
 		f++;
 	}
 	s = 'a';
-	while (s <= 'e')
+	while (s <= 'f')
 	{
 		putchar(s);
 		s++;
