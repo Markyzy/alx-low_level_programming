@@ -1,22 +1,17 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Entry
- * Description: print"Alphabet lowercase and uppercase"
- * Return: 0
+i *  main - main block
+ *   Description: Get a random number and check its last digit, compare it with 5
+ *   Return: 0
  */
-
 int main(void)
 {
-	char ch;
-
-	for (ch = 97; ch <= 122; ch++)
+	char c = 'a';
+	while (c <= 'z')
 	{
-		putchar(ch);
-	}
-	for (ch = 65; ch <= 90; ch++)
-	{
-		putchar(ch);
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
