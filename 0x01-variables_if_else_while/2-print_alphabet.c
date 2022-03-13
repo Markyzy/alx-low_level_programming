@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-i *  main - main block
- *   Description: Get a random number and check its last digit, compare it with 5
- *   Return: 0
+ * main - Entry
+ * Description: print"Alphabet lowercase and uppercase"
+ * Return: 0
  */
 int main(void)
 {
