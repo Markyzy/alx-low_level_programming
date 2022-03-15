@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <time.h>
 #include <main.h>
 /**
  * main - Entry code
@@ -13,8 +12,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	    char p = "_putcher\n";
+	/* your code goes the0re */
+	    char p = "_putchar\n";
 	    printf("%d", p);
     return 0;
 }
