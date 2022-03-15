@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-
+#include <main.h>
 /**
  * main - Entry code
  * Description: prints _putchar, followed by a new line.
