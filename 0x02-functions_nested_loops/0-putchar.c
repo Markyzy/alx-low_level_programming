@@ -14,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	    char p[100] = "_putcher\n";
-    printf("%s", p);
+	    char p = "_putcher\n";
+	    printf("%d", p);
     return 0;
 }
