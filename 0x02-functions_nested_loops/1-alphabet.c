@@ -2,7 +2,6 @@
 /**
  * main - Entry code
  * Description: prints lowercase alphabet, followed by a new line.
- * Return: 0
  */
 void print_alphabet(void)
 {
@@ -12,5 +11,4 @@ void print_alphabet(void)
 	c++;
 }
 	putchar('\n');
-	return (0);
 }
