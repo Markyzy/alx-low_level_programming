@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdo.h>
 #include "main.h"
 
 /**
@@ -9,11 +9,6 @@
  
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes the0re */
-	    printf("putchar");
+    printf("putchar");
     return 0;
 }
