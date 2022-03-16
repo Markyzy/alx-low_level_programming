@@ -13,7 +13,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes the0re */
-	    char p = "_putchar\n";
-	    printf("%d", p);
+	    printf("putchar");
     return 0;
 }
