@@ -7,5 +7,5 @@ int _abs(int n)
 	{
 		n = (-1) * n;
 	}
-	putchar(n);
+	return (n);
 }
