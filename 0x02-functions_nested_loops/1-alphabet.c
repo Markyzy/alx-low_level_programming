@@ -3,7 +3,7 @@
  * main - Entry code
  * Description: prints lowercase alphabet, followed by a new line.
  */
-void print_alphabet(void)
+print_alphabet()
 {
 	char c = 'a';
 	for (c = 'a'; c <= 'z'; c++){
