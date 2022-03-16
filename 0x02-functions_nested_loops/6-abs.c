@@ -7,5 +7,5 @@ int _abs(int n)
 	{
 		n = (-1) * n;
 	}
-	printf("%d", n);
+	putchar(n);
 }
