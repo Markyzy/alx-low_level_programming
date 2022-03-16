@@ -3,10 +3,10 @@
  * main - Entry code
  * Description: prints lowercase alphabet, followed by a new line.
  */
-print_alphabet()
+void print_alphabet(void)
 {
 	char c = 'a';
-	for (c = 'a'; c <= 'z'; c++){
+	while (c <= 'z'; c++){
 	putchar(c);
 	c++;
 }
