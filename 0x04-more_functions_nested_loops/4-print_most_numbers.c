@@ -2,8 +2,9 @@
 
 /**
  * print_most_numbers - prints numbers from 0 to 9
- * apart from 2 and 4
+ * except 2 and 4
  */
+
 void print_most_numbers(void)
 {
 	int i;
