@@ -6,6 +6,6 @@
  */
 void reset_to_98(int *n)
 {
-	_putchar("Address of variable 'n': %p\n", &n);
+	_putchar("%p\n", &n);
 	return (0);
 }
